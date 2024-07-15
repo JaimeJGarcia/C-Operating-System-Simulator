@@ -4,7 +4,7 @@ CFLAGS = -Wall -std=c99 -pedantic -c $(DEBUG)
 LFLAGS = -Wall -std=c99 -pedantic -pthread $(DEBUG)
 
 Sim02 : configops.o metadataops.o ProgramFormat.o SimDriver.o simulator.o StringUtils.o simtimer.o
-	$(CC) $(LFLAGS) configops.o metadataops.o ProgramFormat.o SimDriver.o simulator.o StringUtils.o simtimer.o -o Sim03
+	$(CC) $(LFLAGS) configops.o metadataops.o ProgramFormat.o SimDriver.o simulator.o StringUtils.o simtimer.o -o sim
 
 configops.o  : configops.c configops.h
 	$(CC) $(CFLAGS) configops.c
@@ -28,4 +28,4 @@ simtimer.o : simtimer.c simtimer.h
 	$(CC) $(CFLAGS) simtimer.c
 
 clean:
-	\rm *.o Sim03
+	\rm *.o sim
