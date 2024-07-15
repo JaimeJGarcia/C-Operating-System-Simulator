@@ -1,0 +1,92 @@
+
+==================================================
+Simulator Log File Header
+
+File Name                       : metadata_0.mdf
+CPU Scheduling                  : SJF-N
+Quantum Cycles                  : 3
+Memory Available (KB)           : 11000
+Processor Cycle Rate (ms/cycle) : 10
+I/O Cycle Rate (ms/cycle)       : 2022, OS: Process 4 set to READY state from NEW state
+  0.026709, OS: Process 0 selected with 1830 ms remaining
+  0.027432, OS: Process 0 set from READY toRUNNING
+
+  0.028805, Process: 0, hard drive input operation start
+  0.391429, Process: 0, hard drive input operation end
+  0.393119, Process: 0, cpu process operation start
+  0.484223, Process: 0, cpu process operation end
+  0.484848, Process: 0, cpu process operation start
+  0.574948, Process: 0, cpu process operation end
+  0.575024, Process: 0, cpu process operation start
+  0.665117, Process: 0, cpu process operation end
+  0.665192, Process: 0, monitor output operation start
+  1.866608, Process: 0, monitor outputoperation end
+
+  1.867835, OS: Process 0 ended
+  1.868478, OS: Process 0 set to EXIT
+  1.869277, OS: Process 1 selected with 2160 ms remaining
+  1.869365, OS: Process 1 set from READY toRUNNING
+
+  1.869448, Process: 1, sound signal input operation start
+  2.670051, Process: 1, sound signal input operation end
+  2.670147, Process: 1, attempting mem allocate request
+  2.671510, Process: 1, successful mem allocate request
+  2.672157, Process: 1, hard drive input operation start
+  3.272268, Process: 1, hard drive input operation end
+  3.272382, Process: 1, attempting mem allocate request
+  3.272570, Process: 1, failed mem allocate request
+  3.273447, OS: Segmentation fault, Process 1 ended
+  3.274062, OS: Process 1 set  to EXIT
+  3.274628, OS: Process 2 selected with 3350 ms remaining
+  3.274711, OS: Process 2 set from READY toRUNNING
+
+  3.274796, Process: 2, video signal input operation start
+  4.675403, Process: 2, video signal input operation end
+  4.675534, Process: 2, cpu process operation start
+  4.775639, Process: 2, cpu process operation end
+  4.775716, Process: 2, monitor output operation start
+  6.175817, Process: 2, monitor outputoperation end
+  6.175926, Process: 2, hard drive input operation start
+  6.536029, Process: 2, hard drive input operation end
+  6.536110, Process: 2, cpu process operation start
+  6.626212, Process: 2, cpu process operation end
+
+  6.626309, OS: Process 2 ended
+  6.626407, OS: Process 2 set to EXIT
+  6.626503, OS: Process 4 selected with 3640 ms remaining
+  6.626581, OS: Process 4 set from READY toRUNNING
+
+  6.626663, Process: 4, keyboard input operation start
+  8.427193, Process: 4, keyboard input operation end
+  8.428956, Process: 4, sound signal output operation start
+  9.229446, Process: 4, sound signal outputoperation end
+  9.229537, Process: 4, serial output operation start
+  9.870543, Process: 4, serial outputoperation end
+  9.870646, Process: 4, cpu process operation start
+  9.970757, Process: 4, cpu process operation end
+  9.970841, Process: 4, hard drive input operation start
+ 10.270949, Process: 4, hard drive input operation end
+
+ 10.273974, OS: Process 4 ended
+ 10.274168, OS: Process 4 set to EXIT
+ 10.274269, OS: Process 3 selected with 4770 ms remaining
+ 10.274383, OS: Process 3 set from READY toRUNNING
+
+ 10.274486, Process: 3, sound signal input operation start
+ 10.974611, Process: 3, sound signal input operation end
+ 10.974715, Process: 3, monitor output operation start
+ 12.974842, Process: 3, monitor outputoperation end
+ 12.975001, Process: 3, keyboard input operation start
+ 13.975131, Process: 3, keyboard input operation end
+ 13.975242, Process: 3, cpu process operation start
+ 14.065398, Process: 3, cpu process operation end
+ 14.065494, Process: 3, video signal output operation start
+ 15.045872, Process: 3, video signal outputoperation end
+
+ 15.045997, OS: Process 3 ended
+ 15.046089, OS: Process 3 set to EXIT
+ 15.046526, OS: System stop
+ 15.047357, OS: Simulator end
+
+End Simulation - Complete
+=========================

@@ -1,0 +1,11 @@
+Start Program Meta-Data Code:
+sys start
+app start, 0
+dev in, hard drive, 18
+cpu process, 9
+cpu process, 9
+cpu process, 9
+dev out, monitor, 60
+app end
+sys end
+End Program Meta-Data Code.
