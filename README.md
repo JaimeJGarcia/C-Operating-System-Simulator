@@ -1,4 +1,4 @@
-# school_c_os_simulator
+# C Operating System Simulator
 
 This is my single threaded operating system simulator. I wrote this project for my operating systems class at NAU.
 
