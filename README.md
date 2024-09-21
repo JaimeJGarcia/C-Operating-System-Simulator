@@ -9,4 +9,4 @@ My professor started us out by writing the simtimer.c/h, stringUtils.c/h, SimTim
 Instructions
   * Make file command with gcc: "make -f simulator_mf".
   * Run executable with "./sim".
-  * After reading the instructions from the executable, use the sample logifile_1.lgf or metadata_1.mdf files to run the simulator.
+  * After reading the instructions from the executable, use the sample logifile_1.lgf and/or metadata_1.mdf files to run the simulator.
